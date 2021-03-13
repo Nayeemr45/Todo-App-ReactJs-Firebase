@@ -1,0 +1,70 @@
+.rightbar::-webkit-scrollbar{
+    display: none;
+}
+.all_task_card::-webkit-scrollbar{
+    display: none;
+}
+.rightbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.rightbar{
+    flex: 0.35;
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+@font-face{
+    font-family: 'OperatorMonoBold';
+    src: url('../fonts/Operator Mono/OperatorMono-BoldItalic.otf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face{
+    font-family: 'OperatorMonoMedium';
+    src: url('../fonts/Operator Mono/OperatorMono-MediumItalic.otf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+
+.all_task_card{
+    flex: 0.35;
+    margin: 20px 0px;
+    margin-left: 20px;
+    background-color: var(--todo-background) !important;
+    border: 1px solid var(--todo-color) !important;
+    border-radius: 16px !important;
+}
+
+.all_task_title{
+    color: var(--twitter-color) !important;
+    font-family: 'OperatorMonoBold' !important;
+    max-width: fit-content;
+
+}
+.all__task{
+    flex: 0.35;
+    color: var(--todo-color) !important;
+    font-family: 'OperatorMonoMedium' !important;
+    max-width: fit-content;
+
+}
+
+.Task-delete-btn{
+    color: var(--todo-color) !important;
+    cursor: pointer;
+    margin-left: auto;
+}
+.Task-delete-btn:hover{
+    color: rgb(255, 94, 94) !important;
+}
+.Task-edit-btn{
+    color: var(--todo-color) !important;
+    cursor: pointer;
+}
+.Task-edit-btn:hover{
+    color: var(--twitter-color) !important;
+}

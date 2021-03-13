@@ -1,0 +1,102 @@
+
+
+/* Hide Scrollbar chrome , Safari and Opera */
+.feed::-webkit-scrollbar{
+    display: none;
+}
+.todo__task textarea::-webkit-scrollbar{
+    display: none;
+}
+/* Hide Scrollbar IE , Edge and Firefox */
+.feed{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.feed{
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background);
+    border-left: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+    font-family: 'Roboto', sans-serif;}
+
+.feed__header{
+    position: sticky;
+    top: 0;
+    background-color: var(--todo-background);
+    z-index: 100;
+    border-top: 1px solid var(--twitter-background);
+    border-bottom: 1px solid var(--twitter-background);
+    padding: 0px 20px;
+
+}
+
+
+.todo__taskbar{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.todo__taskbar textarea{
+    margin-top: 2px;
+    margin-left: 5px;
+    outline-style: none !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border: none;
+}
+
+.card{
+    border-radius: 16px !important;
+    background-color: var(--todo-background) !important;
+    color: var(--todo-color) !important;
+    border: 1px solid var(--todo-color) !important;
+}
+
+.card .title{
+    color: var(--todo-color) !important;
+}
+.title textarea , .todo__task textarea{
+    background-color: var(--todo-background) !important;
+    color: var(--todo-color) !important;
+
+}
+
+textarea , button{
+    font-family: 'OperatorMonoMedium' !important;
+}
+.todo__task{
+    border: 1px solid var(--twitter-background);
+    border-radius: 16px;
+    padding: 5px 5px;
+}
+.title , .todo__task{
+    display: flex;  
+    font-family: 'OperatorMonoBold' !important;
+    font-weight: 700;
+}
+.feed__header{
+    font-family: 'OperatorMonoBold' !important;
+    font-weight: 700;
+    font-size: 12   px;
+}
+
+.card__btn{
+    background-color: var(--todo-color) !important;
+    color: var(--todo-background) !important;
+    margin-left: auto !important;
+}
+
+
+@font-face{
+    font-family: 'OperatorMonoBold';
+    src: url('../fonts/Operator Mono/OperatorMono-BoldItalic.otf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face{
+    font-family: 'OperatorMonoMedium';
+    src: url('../fonts/Operator Mono/OperatorMono-MediumItalic.otf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}

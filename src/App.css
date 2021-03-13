@@ -1,0 +1,35 @@
+
+body{
+  --twitter-color: #50b7f5;
+  --twitter-background: #e6ecf0;
+  --todo-background: #001523;
+  --todo-color: #e5f4fb;
+  -webkit-overflow-scrolling:unset;
+  font-family: 'OperatorMono';
+  background-color: var(--todo-background);
+  color: var( --todo-color);
+
+}
+
+
+@font-face{
+  font-family: 'OperatorMono';
+  src: url('./asset/fonts/Operator Mono/OperatorMono-BookItalic.otf'), url('./asset/fonts/Operator Mono/OperatorMono-BookItalic.otf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+.App{
+  display: flex;
+  height: 100vh;
+  min-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+#todo{
+  border: 2px solid rgb(255, 183, 75);
+  border-radius: 10px;
+  outline: 0px;
+  padding: 10px
+}
