@@ -4,9 +4,6 @@ import SidebarOption from './SidebarOption';
 import AssignmentTurnedInIcon from '@material-ui/icons/AssignmentTurnedIn';
 import HomeIcon from '@material-ui/icons/Home';
 import ExploreIcon from '@material-ui/icons/Explore';
-import ListIcon from '@material-ui/icons/List';
-import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
-import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import { Container } from '@material-ui/core';
 
 function Sidebar() {
