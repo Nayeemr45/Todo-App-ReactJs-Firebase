@@ -1,0 +1,55 @@
+.firstpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login{
+    display: flex;
+    background-color: var( --background) !important;
+    border: 1px solid var(--twitter-color) !important;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.MuiInputBase-input{
+    color: white !important;
+    background-color: var( --background) !important;
+}
+
+.login-btn{
+    background-color: var(--twitter-color);
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline-style: none !important;
+    cursor: pointer;
+}
+
+.login-bottom{
+    display: flex;
+    color: var(--twitter-color);
+
+}
+.login-signup{
+    color: var(--twitter-color);
+}
+input:-internal-autofill-selected{
+    appearance: none;
+    background-color: rgb(232, 240, 254) !important;
+    background-image: none !important;
+    padding: 5px;
+}
+.MuiInputBase-input:-webkit-autofill{
+    margin-top: 20px;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 5px;
+}

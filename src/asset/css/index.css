@@ -13,6 +13,7 @@
     flex: 0.35;
     min-width: fit-content;
     overflow-y: scroll;
+
 }
 
 @font-face{
@@ -61,10 +62,10 @@
 .Task-delete-btn:hover{
     color: rgb(255, 94, 94) !important;
 }
-.Task-edit-btn{
+.Task-done-btn{
     color: var(--todo-color) !important;
     cursor: pointer;
 }
-.Task-edit-btn:hover{
+.Task-done-btn:hover{
     color: var(--twitter-color) !important;
 }

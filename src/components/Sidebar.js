@@ -15,10 +15,11 @@ function Sidebar() {
             <AssignmentTurnedInIcon className='sidebar-twitter-icon'/>
             <SidebarOption active Icon={HomeIcon}  text="Home" />            
             <SidebarOption text="New Task" Icon={ExploreIcon}/>                  
-            <SidebarOption text="Recent Task" Icon={ListIcon}/>            
+           {/*  
+            <SidebarOption text="Complete Task" Icon={ListIcon}/>            
             <SidebarOption text="Profile" Icon={PersonOutlineIcon}/>            
             <SidebarOption text="More" Icon={MoreHorizIcon}/>            
-
+ */}
         </Container>
     )
 }

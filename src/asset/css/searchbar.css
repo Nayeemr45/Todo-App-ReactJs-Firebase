@@ -11,6 +11,12 @@
     margin-bottom: 20px;
     position: sticky;
     top: 0;
+    z-index: 100;
+    background-color: var(--background);
+    border-top: 1px solid var(--background);
+    border-bottom: 1px solid var(--background);
+    padding-bottom: 9px;
+    padding-top: 5px;
   }
   
   .search__input {
