@@ -16,9 +16,7 @@ class Home extends React.Component {
   
       componentDidMount = () =>{
         // adding toods
-        const previousTodos = this.state.todos;
-        console.log("🚀 ~ file: App.js ~ line 24 ~ App ~ componentDidMount ~ previousTodos", previousTodos)
-        
+        const previousTodos = this.state.todos;        
         fire.database().ref('todos').on('child_added', snap => {
           previousTodos.push({
             id: snap.key,
@@ -41,9 +39,7 @@ class Home extends React.Component {
           })
         })
       }
-        deleteTodo = (id) => {
-        
-         console.log("🚀 Deleted - Id---🚀" , id);
+        deleteTodo = (id) => { 
         fire.database().ref('todos').child(id).remove();
       }
        addTodo = (title , task) => {

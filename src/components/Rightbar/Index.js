@@ -3,8 +3,8 @@ import Searchbar from './Searchbar';
 import '../../asset/css/index.css';
 import Todo from './Todo';
 
-function Index( { todos , deleteTodo } ) {
-    console.log("1st-todo" , todos);
+ function  Index( { todos , deleteTodo } ) {
+   console.log("1st-todo" , todos);
     return (
         <div className='rightbar'>
             <Searchbar />
